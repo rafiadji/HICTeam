@@ -15,7 +15,7 @@ class Excel extends CI_Controller {
 		}
 	}
 	
-	public function to_excel($id_ws)
+	public function ws_to_excel($id_ws)
 	{
 		$tampil_nama = $this->ws->tampildata("reg_workshop",NULL,array("ID_WORKSHOP" => $id_ws));
 		$cell = 1;
