@@ -33,7 +33,7 @@
 					<td width="22%">
 						<a href="#" class="btn purple mini">Ubah</a>
 						<a href="#" class="btn blue mini">Lihat Peserta</a>
-						<a href="<?php echo site_url("/excel/to_excel/".$ws->ID_WORKSHOP)?>" class="btn green mini">Export Excel</a>
+						<a href="<?php echo site_url("/excel/ws_to_excel/".$ws->ID_WORKSHOP)?>" class="btn green mini">Export Excel</a>
 					</td>
 				</tr>
 				<?php $i++; endforeach;?>
